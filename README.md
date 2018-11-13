@@ -7,6 +7,16 @@ composer create-project roots/bedrock your-project-folder-name
 
 - make sure you are on the latest version of WP
 
+Run:
+
+composer remove johnpbloch/wordpress
+
+composer clear-cache
+
+composer require johnpbloch/wordpress:4.9.8
+
+OR
+
 composer require --update-with-dependencies johnpbloch/wordpress:~4.9.8
 
 - Update environment variables in .env file
